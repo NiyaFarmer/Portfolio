@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+
+/* Adds a backgroud color to the nav bar  
+.topnav { 
+    background-color: black; 
+    overflow: hidden; 
+}
+
+/* places or styles the links into the nav bar 
+.topnav a { 
+    float: left; 
+    color: blue; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 18px; 
+}
+
+/* change the color of links on hover 
+.topnav a:hover { 
+    background-color: white; 
+    color:black; 
+}
+
+/*Add a color to the active/currrent link  
+.topnav a.active { 
+    background-color: palevioletred; 
+    color: white; 
+}*/
+
+body{
+    font-family: Calibri;
+}
+
+
+.container{
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+.container ul{ 
+    height:50px;
+    float: right; 
+}
+
+.container ul li{
+    display: inline-block;
+    padding:40px 15px; 
+    text-transform:uppercase; 
+    color:white; 
+    font-size: 20px; 
+
+}
+
+.container h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top:20%;
+}
+
+.container ul li a:hover{ 
+    color: white;
+}
+/*.container active{
+
+}*/
+.block{ 
+    background: linear-gradient(to left, magenta, darkblue);
+    width: 100%;
+    height:20vh;
+    float:left;
+    width:33.3%;
+    border:1px transparent;
+    padding:10px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+ .block ul a{ 
+     color: white; 
+     text-align: center;
+     list-style-type: none; 
+ }
+
+ .block ul a:hover{ 
+     color: black;
+ }
+
+ .block a{
+     color:white; 
+ }
+
+ .block a:hover{
+     color: black;
+ }
+
+.box-1{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    background: linear-gradient(to left, magenta, darkblue);
+    width:100%;
+    height:100vh; 
+    position: absolute;
+}
+
+.box-1 h2 {
+    color: white; 
+    margin-top: 100px;
+}
+
+.box-1  h2 p { 
+    padding: 20px; 
+    margin: 20px 0; 
+}
+
+.box-2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width:100%;
+    height:100vh; 
+    position: absolute;
+}
+
+.box-2 h2 {
+    color: white; 
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.box-2 ul li {
+    list-style-type: none;
+    border:1px white solid;
+    padding:12px; 
+    border-radius:20px;
+    margin-top: 2px;
+}
+
+/*input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid white; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom:20px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color; 
+    color:white; 
+    border:none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color:aqua;
+}*/
+
+.h3{
+    background: linear-gradient(to left, magenta, darkblue);
+ 
+}
+
+.contact {
+    border-radius: 20px; 
+    border-color: linear-gradient(to left, magenta, darkblue);
+    background: linear-gradient(to left, magenta, darkblue);
+    padding:20px;
+    width: 100%; 
+    padding: 12px;
+    /*border: 1px solid white;*/ 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom:20px; 
+    resize: vertical;
+    position: absolute;
+    margin: 185px -0;
+    text-align: center;
+    font-size: 20px;
+    z-index: 1;
+    background:transparent;
+}
+
+.box-3 h4{
+    background: linear-gradient(to left, magenta, darkblue);
+    text-align: center;
+    margin-bottom: -35px; 
+    font-size: 30px; 
+    position: absolute;
+    top: 315px;
+    width:100%;
+
+
+}
+
+/*.button {
+    color: white;
+}
+
+.button a:hover{
+    color: black; 
+}*/
+
+.animation-area{
+    background: linear-gradient(to left, magenta, darkblue);
+    width: 100%;
+    height:100vh;
+}
+
+.box-area {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.box-area li{
+    position:absolute; 
+    display: block; 
+    list-style: none; 
+    width: 25px; 
+    height:25px; 
+    background: rgba(255,255,255,0.2); 
+    animation: animate 20s linear infinite; 
+    bottom: -150px; 
+    clip-path: polygon(0% 0%, 0% 100%, 20% 100%, 20% 20%, 80% 20%, 80% 80%, 20% 80%, 20% 100%, 100% 100%, 100% 0%);
+}
+
+.box-area li:nth-child(1){
+    left:86%; 
+    width: 80px; 
+    height: 80px; 
+    animation-delay: 0s;
+}
+
+.box-area li:nth-child(2){
+    left:12%; 
+    width: 30px; 
+    height: 30px; 
+    animation-delay: 1.5s;
+    animation-duration: 10s; 
+}
+
+.box-area li:nth-child(3){
+    left:70%; 
+    width: 100px; 
+    height: 100px; 
+    animation-delay: 5.5s;
+}
+
+.box-area li:nth-child(4){
+    left:42%; 
+    width: 150px; 
+    height: 150px; 
+    animation-delay: 0s;
+    animation-duration: 10s; 
+
+}
+
+.box-area li:nth-child(5){
+    left:65%; 
+    width: 40px; 
+    height: 40px; 
+    animation-delay: 0s; 
+}
+
+.box-area li:nth-child(6){
+    left: 15%; 
+    width: 110px; 
+    height: 110px; 
+    animation-delay: 3.5s; 
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg); 
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg); 
+        opacity: 1;
+    }
+}
+
+
+
+/*.box-1 h2{
+    padding: 200px;
+}*/
